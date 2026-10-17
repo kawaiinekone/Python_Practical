@@ -1,12 +1,15 @@
 # Programming Using Python - Practical Record
+##Student Details
 
-**Name:** Shubhi Rai
-**Course:** B.Sc. (Hons.) Computer Science
-**Semester:** I
-**Roll Number:** 26570059
-**Subject:** Programming Using Python
+| **Field** | **Details** |
+|:---|:---|
+| **Name** | Shubhi Rai |
+| **Course** | B.Sc. (Hons.) Computer Science |
+| **Semester** | I (First Semester) |
+| **Roll Number** | `26570059` |
+| **Subject** | Programming Using Python |
+| **College** | Ramanujan College, University of Delhi |
 
-This repository contains my solutions to Practicals 01 to 15 of Programming Using Python. Each practical has the problem statement, the code, and a sample test.
 
 ## How to run
 
@@ -829,20 +832,3 @@ Invalid input: Name cannot be empty.
 - The check accepts only letters and spaces, so names with apostrophes or hyphens are rejected.
 
 ---
-
-## Topics covered
-
-- Conditions and loops (`if`, `for`, `while`)
-- Functions
-- Strings (slicing, `count()`, `replace()`, `find()`)
-- Lists and list comprehension
-- File handling and `try`/`except`
-- Dictionaries and dictionary comprehension
-- Tuples
-- Classes, constructors, and object counting
-- Inheritance and method overriding
-- User-defined exceptions
-
----
-
-Shubhi Rai, B.Sc. (Hons.) Computer Science, Semester I, Roll No. 26570059
