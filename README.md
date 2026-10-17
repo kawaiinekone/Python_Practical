@@ -366,11 +366,6 @@ print(result)
 ### Output
 <img width="581" height="85" alt="image" src="https://github.com/user-attachments/assets/946b117d-34ce-42ac-a658-4d626bb51f3e" />
 
-**Sample test:**
-
-Input: `[2, 3, 4, 5, 6, "hello", 2.5, True]`
-
-Output: `[8, 64, 216]`
 
 **Note:** `type(x) is int` is used instead of `isinstance` so that Boolean values are left out, since `bool` is a subclass of `int` in Python. `ast.literal_eval()` is used to read the list safely from input.
 
