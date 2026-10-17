@@ -779,10 +779,23 @@ except InvalidNameError as error:
 ```
 
 ### Output
+1)
 
 <img width="222" height="37" alt="image" src="https://github.com/user-attachments/assets/afd6070b-3846-4e59-ba96-644fcd12da4b" />
 
+
+
+
+
+
+
+2)
+
 <img width="607" height="47" alt="image" src="https://github.com/user-attachments/assets/193b9f73-b48a-4d2c-a765-fb263acce483" />
+
+
+
+3)
 
 <img width="352" height="40" alt="image" src="https://github.com/user-attachments/assets/d74dc473-6bfa-4100-a258-3f36e46659c1" />
 
