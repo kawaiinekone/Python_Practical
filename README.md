@@ -520,17 +520,3 @@ Minimum: 1
 **Note:** Tuples are immutable, so slicing, filtering, and concatenation create new tuples instead of changing `t1`.
 
 ---
-
-## Topics covered
-
-- Conditions and loops (`if`, `for`, `while`)
-- Functions
-- Strings (slicing, `count()`, `replace()`, `find()`)
-- Lists and list comprehension
-- File handling and `try`/`except`
-- Dictionaries and dictionary comprehension
-- Tuples
-
----
-
-Shubhi Rai, B.Sc. (Hons.) Computer Science, Semester I, Roll No. 26570059
