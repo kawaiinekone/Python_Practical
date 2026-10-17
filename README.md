@@ -13,11 +13,8 @@
 
 ## How to run
 
-Install Python 3, save a program as a `.py` file, and run it from the terminal:
+Install Python 3, save a program as a `.py` file.
 
-```bash
-python practical_01_quadratic_roots.py
-```
 
 On some systems you may need to use `python3` instead of `python`.
 
