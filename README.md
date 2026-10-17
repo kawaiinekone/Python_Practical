@@ -240,11 +240,8 @@ ch = input("Character to remove: ")
 print("Result:", s.replace(ch, ""))
 ```
 
-**Sample test:** For the string `banana` and the character `a`:
-
-- Frequency -> 3
-- Remove first occurrence -> bnana
-- Remove all occurrences -> bnn
+### Output
+<img width="1587" height="342" alt="image" src="https://github.com/user-attachments/assets/5a0205f3-3c5c-43d1-8edb-2afb8979293a" />
 
 **Note:** Strings are immutable, so `replace()` returns a new string and the original is unchanged.
 
@@ -278,6 +275,8 @@ else:
 First string: 12cdef
 Second string: ab3456
 ```
+### Output
+<img width="585" height="157" alt="image" src="https://github.com/user-attachments/assets/c7f16292-379c-4757-8917-11711b532a45" />
 
 ---
 
@@ -318,6 +317,9 @@ Main string: banana
 Substring: ana
 Result: [1, 3]
 ```
+### Output
+<img width="567" height="95" alt="image" src="https://github.com/user-attachments/assets/e6358d25-ecb7-4ecb-85d3-d07c3f449b72" />
+
 
 If the substring is `xyz`, the function returns -1.
 
@@ -346,6 +348,9 @@ for x in items:
 
 print(result)
 ```
+### Output
+<img width="581" height="85" alt="image" src="https://github.com/user-attachments/assets/94213a39-0ab1-405c-ada1-3ba3c13c3d4d" />
+
 
 **(b) Using list comprehension**
 
@@ -358,6 +363,8 @@ result = [x ** 3 for x in items if type(x) is int and x % 2 == 0]
 
 print(result)
 ```
+### Output
+<img width="581" height="85" alt="image" src="https://github.com/user-attachments/assets/946b117d-34ce-42ac-a658-4d626bb51f3e" />
 
 **Sample test:**
 
@@ -473,10 +480,8 @@ print(cube_dict())
 ```
 
 **Output:**
+<img width="1592" height="62" alt="image" src="https://github.com/user-attachments/assets/6debecce-a2c8-43e7-b3a3-11052b5e4939" />
 
-```text
-{1: 1, 2: 8, 3: 27, 4: 64, 5: 125}
-```
 
 ---
 
@@ -513,14 +518,8 @@ print("Minimum:", min(t1))
 
 **Output:**
 
-```text
-First half: (1, 2, 5, 7, 9)
-Second half: (2, 4, 6, 8, 10)
-Even values: (2, 2, 4, 6, 8, 10)
-Concatenated tuple: (1, 2, 5, 7, 9, 2, 4, 6, 8, 10, 11, 13, 15)
-Maximum: 10
-Minimum: 1
-```
+<img width="1602" height="202" alt="image" src="https://github.com/user-attachments/assets/2616828c-7f39-4ee2-9440-541b997a530f" />
+
 
 **Note:** Tuples are immutable, so slicing, filtering, and concatenation create new tuples instead of changing `t1`.
 
@@ -583,27 +582,9 @@ print(e2)
 print("\nEmployee objects created:", Employee.count)
 ```
 
-**Sample output:**
+**Output:**
+<img width="1606" height="442" alt="image" src="https://github.com/user-attachments/assets/9deee429-d81e-4f94-bc04-a52c59c7b499" />
 
-```text
-Employee No: 101
-Name: Aarav
-Department: IT
-Basic: 30000.00
-DA: 5000.00
-HRA: 3000.00
-Total Salary: 38000.00
-
-Employee No: 102
-Name: Meera
-Department: HR
-Basic: 25000.00
-DA: 4000.00
-HRA: 2500.00
-Total Salary: 31500.00
-
-Employee objects created: 2
-```
 
 **Version 2 - Alternative with more reliable counting**
 
@@ -654,7 +635,11 @@ print(e2)
 print("Live Employee objects:", Employee.object_count())
 ```
 
-**Output (last line):** `Live Employee objects: 2`
+**Output** 
+
+
+<img width="582" height="277" alt="image" src="https://github.com/user-attachments/assets/6e8f9f8d-b34c-4021-857c-e8d6e25e742c" />
+
 
 **Notes:**
 
@@ -697,13 +682,9 @@ print("Point 2:", p2)
 print("Distance:", p1.distance(p2))
 ```
 
-**Sample output:**
+### Output 
+<img width="592" height="102" alt="image" src="https://github.com/user-attachments/assets/e1d21ac4-a1cd-4106-8de7-b2645712a829" />
 
-```text
-Point 1: (2, 3)
-Point 2: (5, 7)
-Distance: 5.0
-```
 
 **Note:** `distance()` takes another point as an argument, so it works for any two `Point2D` objects.
 
@@ -757,14 +738,10 @@ print("Point 1:", p1)
 print("Point 2:", p2)
 print("Distance:", p1.distance(p2))
 ```
+### Output
 
-**Sample output:**
+<img width="556" height="100" alt="image" src="https://github.com/user-attachments/assets/7a094021-4310-463b-a82f-3c454f5d29ee" />
 
-```text
-Point 1: (1, 2, 3)
-Point 2: (4, 6, 3)
-Distance: 5.0
-```
 
 **Notes:**
 
@@ -806,22 +783,15 @@ except InvalidNameError as error:
     print("Invalid input:", error)
 ```
 
-**Sample runs:**
+### Output
 
-```text
-Enter your name: Shubhi Rai
-Valid name: Shubhi Rai
-```
+<img width="222" height="37" alt="image" src="https://github.com/user-attachments/assets/afd6070b-3846-4e59-ba96-644fcd12da4b" />
 
-```text
-Enter your name: Shubhi123
-Invalid input: Name must not contain digits or special characters.
-```
+<img width="607" height="47" alt="image" src="https://github.com/user-attachments/assets/193b9f73-b48a-4d2c-a765-fb263acce483" />
 
-```text
-Enter your name:
-Invalid input: Name cannot be empty.
-```
+<img width="352" height="40" alt="image" src="https://github.com/user-attachments/assets/d74dc473-6bfa-4100-a258-3f36e46659c1" />
+
+
 
 **Notes:**
 
