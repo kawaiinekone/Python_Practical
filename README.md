@@ -70,6 +70,9 @@ else:
 ```
 
 **Sample test:** a = 1, b = -5, c = 6 gives roots 3.0 and 2.0.
+### Output 
+<img width="1465" height="171" alt="image" src="https://github.com/user-attachments/assets/1fc743c7-5f13-4cf0-8286-2d4393a8276a" />
+
 
 **Note:** The check `a == 0` avoids division by zero and rejects equations that are not quadratic.
 
@@ -128,9 +131,11 @@ print()
 **Sample test:**
 
 - 17 -> Prime
-- 1 -> Not prime
 - Primes up to 10 -> 2 3 5 7
 - First 5 primes -> 2 3 5 7 11
+### Output
+<img width="1457" height="195" alt="image" src="https://github.com/user-attachments/assets/34f71a67-10b7-46eb-abb5-5bc04d2d7601" />
+
 
 **Note:** Only divisors up to the square root of n need to be checked. The same `is_prime()` function is used in all three parts.
 
@@ -153,18 +158,9 @@ for i in range(n, 0, -1):
 ```
 
 **Sample output (n = 3):**
+### Output
+<img width="1612" height="267" alt="image" src="https://github.com/user-attachments/assets/423a17ee-78bf-4f20-a468-e3a6958df89d" />
 
-```text
-Pyramid:
-  *
- * *
-* * *
-
-Reverse pyramid:
-* * *
- * *
-  *
-```
 
 ---
 
@@ -204,6 +200,8 @@ else:
 - m -> Letter, Lowercase
 - 9 -> Numeric digit, NINE
 - @ -> Special character
+### Output
+<img width="1616" height="442" alt="image" src="https://github.com/user-attachments/assets/201f2d39-ad16-4fe4-b89a-288906973a23" />
 
 ---
 
